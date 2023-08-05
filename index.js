@@ -46,7 +46,7 @@ function sendMessage() {
     method: "POST",
     headers: {
       "content-type": "application/json",
-      "X-RapidAPI-Key": "YourApiKey",
+      "X-RapidAPI-Key": "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",
       "X-RapidAPI-Host": "chatgpt53.p.rapidapi.com",
     },
     body: `{"messages":[{"role":"user","content":"${message}"}]}`,
